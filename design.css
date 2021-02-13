@@ -1,0 +1,96 @@
+head {
+    text-align: center;
+}
+body {
+    font-family: Verdana;
+    text-align: center;
+    background-color: rgb(213, 213, 213);
+    color: rgb(0, 0, 0);
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-left: 5%;
+}
+  
+  /* Remove extra left and right margins, due to padding in columns */
+.row1 {
+    margin: 0 -5px;
+    background-color: rgb(162, 186, 162);
+}
+
+
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row2 {
+    margin: 0 -5px;
+    background-color: rgb(169, 182, 254);
+}
+
+
+
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row3 {
+    margin: 0 -5px;
+    background-color: rgb(221, 189, 134);
+}
+
+
+
+.row3:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+  
+.price {
+    color: grey;
+    font-size: 22px;
+}
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}

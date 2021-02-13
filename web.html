@@ -1,0 +1,227 @@
+<html>
+    <head>
+        <title>Ali's Website</title>
+        <link rel="stylesheet" href="design.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <h1>Make An Online Reservation</h1>
+        
+        <div class = "row1"> 
+
+            <h4>Football Fields</h4>
+
+            <div class="column">
+                <div class="card">
+                    <img src="football-court.jpg" alt="Denim Jeans" style="width:100%">
+                    <h1>Mishref Field</h1>
+                    <p class="price">$29.99/hr</p>
+                    <p>Capacity: 6vs6 | Type: Artificial Turf</p>
+                    <div class="form-group">
+                        <select class="form-control" id="sel1">
+                            <option value="none" selected disabled hidden>Select an Option </option>
+                            <option value="t-7-8" id="opt1">7:00 pm - 8:00 pm</option>
+                            <option value="t-8-9" id="opt2">8:00 pm - 9:00 pm</option>
+                            <option value="t-9-10" id="opt3">9:00 pm - 10:00 pm</option>
+                            <option value="t-10-11" id="opt4">10:00 pm - 11:00 pm</option>
+                            <option value="t-11-12" id="opt5">11:00 pm - 12:00 am</option>
+                            <option value="t-12-1" id="opt6">12:00 am - 1:00 am</option>
+                        </select>
+                      </div>
+                    <p><button type="button" onclick="reservationMessage1()">Book</button></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="football-court.jpg" alt="Denim Jeans" style="width:100%">
+                    <h1>Adan Field</h1>
+                    <p class="price">$39.99/hr</p>
+                    <p>Capacity: 7vs7 | Type: Artificial Turf</p>
+                    <div class="form-group">
+                        <select class="form-control" id="sel2">
+                            <option value="none" selected disabled hidden>Select an Option </option>
+                            <option value="t-7-8" id="opt1_2">7:00 pm - 8:00 pm</option>
+                            <option value="t-8-9" id="opt2_2">8:00 pm - 9:00 pm</option>
+                            <option value="t-9-10" id="opt3_2">9:00 pm - 10:00 pm</option>
+                            <option value="t-10-11" id="opt4_2">10:00 pm - 11:00 pm</option>
+                            <option value="t-11-12" id="opt5_2">11:00 pm - 12:00 am</option>
+                            <option value="t-12-1" id="opt6_2">12:00 am - 1:00 am</option>
+                        </select>
+                      </div>
+                    <p><button type="button" onclick="reservationMessage2()">Book</button></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="football-court.jpg" alt="Denim Jeans" style="width:100%">
+                    <h1>Bayan Field</h1>
+                    <p class="price">$19.99/hr</p>
+                    <p>Capacity: 5vs5 | Indoor: Futsal</p>
+                    <div class="form-group">
+                        <select class="form-control" id="sel3">
+                            <option value="none" selected disabled hidden>Select an Option </option>
+                            <option value="t-7-8" id="opt1_3">7:00 pm - 8:00 pm</option>
+                            <option value="t-8-9" id="opt2_3">8:00 pm - 9:00 pm</option>
+                            <option value="t-9-10" id="opt3_3">9:00 pm - 10:00 pm</option>
+                            <option value="t-10-11" id="opt4_3">10:00 pm - 11:00 pm</option>
+                            <option value="t-11-12" id="opt5_3">11:00 pm - 12:00 am</option>
+                            <option value="t-12-1" id="opt6_3">12:00 am - 1:00 am</option>
+                        </select>
+                      </div>
+                    <p><button type="button" onclick="reservationMessage3()">Book</button></p>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+
+        <div class = "row2"> 
+
+            <h4>Volleyball Courts</h4>
+
+            <div class="column">
+                <div class="card">
+                    <img src="volleyballCourt.jpg" alt="Denim Jeans" style="width:100%">
+                    <h1>Rumaithiya Court</h1>
+                    <p class="price">$14.99/hr</p>
+                    <p>Capacity: 4vs4 | Outdoor: Sands</p>
+                    <div class="form-group">
+                        <select class="form-control" id="sel4">
+                            <option value="none" selected disabled hidden>Select an Option </option>
+                            <option value="t-7-8" id="opt1_4">7:00 pm - 8:00 pm</option>
+                            <option value="t-8-9" id="opt2_4">8:00 pm - 9:00 pm</option>
+                            <option value="t-9-10" id="opt3_4">9:00 pm - 10:00 pm</option>
+                            <option value="t-10-11" id="opt4_4">10:00 pm - 11:00 pm</option>
+                            <option value="t-11-12" id="opt5_4">11:00 pm - 12:00 am</option>
+                            <option value="t-12-1" id="opt6_4">12:00 am - 1:00 am</option>
+                        </select>
+                      </div>
+                    <p><button type="button" onclick="reservationMessage4()">Book</button></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="volleyballCourt.jpg" alt="Denim Jeans" style="width:100%">
+                    <h1>Al-Jahra Court</h1>
+                    <p class="price">$24.99/hr</p>
+                    <p>Capacity: 6vs6 | Indoor</p>
+                    <div class="form-group">
+                        <select class="form-control" id="sel5">
+                            <option value="none" selected disabled hidden>Select an Option </option>
+                            <option value="t-7-8" id="opt1_5">7:00 pm - 8:00 pm</option>
+                            <option value="t-8-9" id="opt2_5">8:00 pm - 9:00 pm</option>
+                            <option value="t-9-10" id="opt3_5">9:00 pm - 10:00 pm</option>
+                            <option value="t-10-11" id="opt4_5">10:00 pm - 11:00 pm</option>
+                            <option value="t-11-12" id="opt5_5">11:00 pm - 12:00 am</option>
+                            <option value="t-12-1" id="opt6_5">12:00 am - 1:00 am</option>
+                        </select>
+                      </div>
+                    <p><button type="button" onclick="reservationMessage5()">Book</button></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="volleyballCourt.jpg" alt="Denim Jeans" style="width:100%">
+                    <h1>Kaifan Court</h1>
+                    <p class="price">$24.99/hr</p>
+                    <p>Capacity: 6vs6 | Indoor</p>
+                    <div class="form-group">
+                        <select class="form-control" id="sel6">
+                            <option value="none" selected disabled hidden>Select an Option </option>
+                            <option value="t-7-8" id="opt1_6">7:00 pm - 8:00 pm</option>
+                            <option value="t-8-9" id="opt2_6">8:00 pm - 9:00 pm</option>
+                            <option value="t-9-10" id="opt3_6">9:00 pm - 10:00 pm</option>
+                            <option value="t-10-11" id="opt4_6">10:00 pm - 11:00 pm</option>
+                            <option value="t-11-12" id="opt5_6">11:00 pm - 12:00 am</option>
+                            <option value="t-12-1" id="opt6_6">12:00 am - 1:00 am</option>
+                        </select>
+                      </div>
+                    <p><button type="button" onclick="reservationMessage6()">Book</button></p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class = "row3"> 
+
+            <h4>Basketball Courts</h4>
+
+            <div class="column">
+                <div class="card">
+                    <img src="basketballCourt.jpg" alt="Denim Jeans" style="width:100%">
+                    <h1>Ahmadi Court</h1>
+                    <p class="price">$29.99/hr</p>
+                    <p>Capacity: 5vs5 | Indoor</p>
+                    <div class="form-group">
+                        <select class="form-control" id="sel7">
+                            <option value="none" selected disabled hidden>Select an Option </option>
+                            <option value="t-7-8" id="opt1_7">7:00 pm - 8:00 pm</option>
+                            <option value="t-8-9" id="opt2_7">8:00 pm - 9:00 pm</option>
+                            <option value="t-9-10" id="opt3_7">9:00 pm - 10:00 pm</option>
+                            <option value="t-10-11" id="opt4_7">10:00 pm - 11:00 pm</option>
+                            <option value="t-11-12" id="opt5_7">11:00 pm - 12:00 am</option>
+                            <option value="t-12-1" id="opt6_7">12:00 am - 1:00 am</option>
+                        </select>
+                      </div>
+                    <p><button type="button" onclick="reservationMessage7()">Book</button></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="basketballCourt.jpg" alt="Denim Jeans" style="width:100%">
+                    <h1>Hateen Court</h1>
+                    <p class="price">$14.99/hr</p>
+                    <p>Capacity: 5vs5 | Outdoor</p>
+                    <div class="form-group">
+                        <select class="form-control" id="sel8">
+                            <option value="none" selected disabled hidden>Select an Option </option>
+                            <option value="t-7-8" id="opt1_8">7:00 pm - 8:00 pm</option>
+                            <option value="t-8-9" id="opt2_8">8:00 pm - 9:00 pm</option>
+                            <option value="t-9-10" id="opt3_8">9:00 pm - 10:00 pm</option>
+                            <option value="t-10-11" id="opt4_8">10:00 pm - 11:00 pm</option>
+                            <option value="t-11-12" id="opt5_8">11:00 pm - 12:00 am</option>
+                            <option value="t-12-1" id="opt6_8">12:00 am - 1:00 am</option>
+                        </select>
+                      </div>
+                    <p><button type="button" onclick="reservationMessage8()">Book</button></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="basketballCourt.jpg" alt="Denim Jeans" style="width:100%">
+                    <h1>Jabriya Court</h1>
+                    <p class="price">$29.99/hr</p>
+                    <p>Capacity: 5vs5 | Indoor</p>
+                    <div class="form-group">
+                        <select class="form-control" id="sel9">
+                            <option value="none" selected disabled hidden>Select an Option </option>
+                            <option value="t-7-8" id="opt1_9">7:00 pm - 8:00 pm</option>
+                            <option value="t-8-9" id="opt2_9">8:00 pm - 9:00 pm</option>
+                            <option value="t-9-10" id="opt3_9">9:00 pm - 10:00 pm</option>
+                            <option value="t-10-11" id="opt4_9">10:00 pm - 11:00 pm</option>
+                            <option value="t-11-12" id="opt5_9">11:00 pm - 12:00 am</option>
+                            <option value="t-12-1" id="opt6_9">12:00 am - 1:00 am</option>
+                        </select>
+                      </div>
+                    <p><button type="button" onclick="reservationMessage9()">Book</button></p>
+                   
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+
+
+    </body>
+
+    
+  </html>
